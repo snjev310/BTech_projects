@@ -1,0 +1,101 @@
+    .textbox {
+    background: #F1F1F1  no-repeat;
+    background-position: 5px -7px !important;
+    padding: 10px 10px 10px 25px;
+    width: 270px;
+    border: 1px solid #CCC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+    box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+}
+
+.textbox:focus {
+    background-color: #FFF;
+    border-color: #E8C291;
+    outline: none;
+    -moz-box-shadow: 0 0 0 1px #e8c291 inset;
+    -webkit-box-shadow: 0 0 0 1px #E8C291 inset;
+    box-shadow: 0 0 0 1px #E8C291 inset;
+}
+
+
+
+
+.button {
+  background: #cfe7fa;
+  background: -moz-linear-gradient(top,  #cfe7fa 0%, #6393c1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cfe7fa), color-stop(100%,#6393c1));
+  background: -webkit-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%);
+  background: -o-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%);
+  background: -ms-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%);
+  background: linear-gradient(top,  #cfe7fa 0%,#6393c1 100%);
+  border: 1px solid #6393c1;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  border-radius: 40px;
+  -moz-box-shadow: inset 1px 1px 0px rgba(255, 255, 255, .5), inset -1px -1px 0px rgba(0, 0, 0, .5);
+  -webkit-box-shadow: inset 1px 1px 0px rgba(255, 255, 255, .5), inset -1px -1px 0px rgba(0, 0, 0, .5);
+  box-shadow: inset 1px 1px 0px rgba(255, 255, 255, .5), inset -1px -1px 0px rgba(0, 0, 0, .5);
+  cursor: pointer;
+  display: inline-block;
+  font: 15px Arial, Verdana, Geneva, sans-serif;
+  line-height: 41px;
+  padding-right: 20px;
+}
+
+.button:hover .inner {
+  opacity:.5;
+}
+
+.button input {
+  display:inline-table;
+}
+
+.button input:checked + .outer .inner {
+  opacity: .5;
+  
+}
+
+.button .outer {
+  background: #2989d8;
+  background: -moz-radial-gradient(center, ellipse cover,  #2989d8 0%, #101354 99%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#2989d8), color-stop(99%,#101354));
+  background: -webkit-radial-gradient(center, ellipse cover,  #2989d8 0%,#101354 99%);
+  background: -o-radial-gradient(center, ellipse cover,  #2989d8 0%,#101354 99%);
+  background: -ms-radial-gradient(center, ellipse cover,  #2989d8 0%,#101354 99%);
+  background: radial-gradient(center, ellipse cover,  #2989d8 0%,#101354 99%);
+  border: 1px solid black;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  display: block;
+  float: left;
+  height: 20px;
+  margin: 10px;
+  width: 20px;
+}
+
+.button .inner {
+  background: #e4f5fc;
+  background: -moz-radial-gradient(center, ellipse cover,  #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#e4f5fc), color-stop(50%,#bfe8f9), color-stop(51%,#9fd8ef), color-stop(100%,#2ab0ed));
+  background: -webkit-radial-gradient(center, ellipse cover,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%);
+  background: -o-radial-gradient(center, ellipse cover,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%);
+  background: -ms-radial-gradient(center, ellipse cover,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%);
+  background: radial-gradient(center, ellipse cover,  #e4f5fc 0%,#bfe8f9 50%,#9fd8ef 51%,#2ab0ed 100%);
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  display: block;
+  height: 14px;
+  margin: 3px;
+  opacity: 0;
+  -moz-transition: opacity .5s;
+  -webkit-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  transition: opacity .5s;
+  width: 14px;
+}
